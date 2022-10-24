@@ -1,0 +1,287 @@
+* {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* manejo de menu */
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.imgLogo {
+    background-color: aqua;
+}
+
+.titulo {
+    font-size: 40px;
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.menu {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.searchBox {
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+.menu>div {
+    color: black
+}
+
+.menu div:hover,
+.menu div:focus,
+.menu div:active {
+    color: white;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.socialIcons {
+    width: 40px;
+    height: 30px;
+}
+
+#addCart :hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .myHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .myNav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .myMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .myLink {
+        padding: 10px;
+    }
+}
+
+/* fin manejo de menu */
+
+
+
+.detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 2px;
+
+}
+
+.cajaDetalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.linea-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    border-bottom: 5px solid rgb(56, 54, 54);
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.linea-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.linea-3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.discover {
+    background-color: rgb(6, 212, 208);
+    color: aliceblue;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    padding-top: 40px;
+}
+.discover-final {
+    background-color: rgb(6, 212, 208);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.linea3-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+#mySucculents:hover {
+    content: url('images/assets/succulents-2.jpg');
+}
+
+.linea3-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.aloe-m {
+    height: 70%;
+}
+
+.soothingAloe {
+    background-color:  rgb(6, 212, 208);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: xx-large;
+}
+
+.arrow-light {
+    background-color: rgb(6, 212, 208);
+}
+
+
+.linea-4 {
+    background-color: rgb(158, 249, 249);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.linea4-seccion {
+    background-color: rgb(158, 249, 249);
+    text-align: center;
+}
+
+.nombrePlanta {
+    background-color:  rgb(158, 249, 249);
+}
+
+.imgCarrusel {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.linea-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+u {
+    color: cornflowerblue;
+}
+
+.btn-accept {
+    color: black;
+    background-color: rgb(161, 219, 219);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    border: 1px solid blue
+}
